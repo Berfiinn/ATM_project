@@ -53,6 +53,8 @@ public class Hesap {
         else{
             bakiye-=tutar;
             System.out.println("para çektiniz yeni bakiyeniz: "+ bakiye);
+
+            
         }
 
     }
