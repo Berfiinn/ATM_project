@@ -43,10 +43,10 @@ public class Hesap {
         System.out.println("para yatırma işleminiz tamamlanmıştır bakiyeniz:" + bakiye );
     }
     public void paracekme(int tutar){
-        if(tutar>1500){
+        if(tutar>1500) {
             System.out.println("bu kadar yüksek para çekemezsiniz");
-
         }
+
         else if(bakiye - tutar<0){
             System.out.println("yetersiz bakiye bakiyeniz: " + bakiye);
         }
